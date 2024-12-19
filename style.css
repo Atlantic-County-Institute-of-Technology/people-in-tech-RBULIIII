@@ -14,3 +14,25 @@ table {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
+  body{
+    font-family: cursive;
+    background-image: url("assests/background-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    padding: 0 20%;
+    font-size: 24px;
+  }
+h1{
+  /* width: 24px;
+  height: px; */
+  color: red;
+  animation-name: h1;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes h1{
+   from {color: rgb(247, 60, 3);}
+  to {color: rgb(255, 187, 0);}
+}
